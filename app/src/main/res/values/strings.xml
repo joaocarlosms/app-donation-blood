@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AppBloodBank</string>
+    <string name="text_screen_register">
+        Your details will be public to the community, by using this app you also need to pledge to
+        be a donor to help those who are in need.
+    </string>
+    <string name="city">City</string>
+    <string name="numberPhone">Mobile Number (Verifiable)</string>
+    <string name="name">Name</string>
+    <string name="bloodGroup">Blood Group</string>
+    <string name="password">Password\n</string>
+    <string name="text_btn">Become a donor</string>
 </resources>
