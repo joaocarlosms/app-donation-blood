@@ -33,7 +33,7 @@
             android:layout_marginTop="8dp">
 
             <EditText
-                android:id="@+id/edt_name"
+                android:id="@+id/nameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/name"
@@ -48,7 +48,7 @@
             android:layout_marginTop="8dp">
 
             <EditText
-                android:id="@+id/edt_city"
+                android:id="@+id/cityEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/city"
@@ -63,7 +63,7 @@
             android:layout_marginTop="8dp">
 
             <EditText
-                android:id="@+id/edt_numberPhone"
+                android:id="@+id/mobileEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/numberPhone"
@@ -80,11 +80,10 @@
             android:layout_marginTop="8dp">
 
             <EditText
-                android:id="@+id/edt_bloodGroup"
+                android:id="@+id/bloodGroupEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/bloodGroup"
-                android:inputType="number"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 tools:ignore="TextFields" />
@@ -98,7 +97,7 @@
             android:layout_marginTop="8dp">
 
             <EditText
-                android:id="@+id/edt_password"
+                android:id="@+id/passwordEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
@@ -110,6 +109,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/submitButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
